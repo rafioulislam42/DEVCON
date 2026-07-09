@@ -1,0 +1,123 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* common-section */
+.common-btn{
+    padding: 7px 16px;
+    border: none;
+    border-radius: 8px;
+    background-color: #1D4ED8;
+    color: white;
+}
+/* nav-section */
+nav section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto 110px;
+    padding: 12px 0px;
+}
+
+.nav-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    gap: calc(8px);
+    
+
+}
+.nav-logo div img{
+    background-color: black;
+    border-radius: 5px;
+}
+
+nav section ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+nav section ul li a{
+    text-decoration: none;
+    color: #575757;
+}
+
+/* header-section */
+header{
+background-image: linear-gradient(rgba(255, 255, 255, 0.08) 0%, rgba(0, 0, 0, 0.003) 40%, rgba(0, 0, 0, 0.85) 100%),url('./images/banner.jpg');
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 70px;
+}
+
+header{
+    display: grid;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+}
+header section{
+    width: 500px;
+    display: grid;
+    margin-top: 170px;
+}
+
+
+.head-btn{
+    padding: 12px 26px;
+    border: none;
+    border-radius: 8px;
+    background-color: #1D4ED8;
+    color: white;
+    font-size: 17px;
+}
+.btn-header{
+    position: absolute;
+    bottom: 60px;
+    right:45%;
+}
+header section .header-text h1{
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+header section .header-text p{
+    opacity: 0.5;
+}
+
+/* spekers-section
+
+.Spekers-section{
+    margin: auto 8%;
+
+}
+
+.Spekers-section h1{
+    text-align: center;
+    margin-bottom: 50px;
+    font-weight:bolder;
+    font-size: 40px;
+}
+
+.spekers-grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 30px;
+
+    
+}
+.box{
+    background-color: #E5E7EB;
+    border-radius: 18px;
+} */
+
+
+
+
+
