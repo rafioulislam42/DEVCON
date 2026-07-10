@@ -91,7 +91,7 @@ header section .header-text p{
     opacity: 0.5;
 }
 
-/* spekers-section
+/* spekers-section */
 
 .Spekers-section{
     margin: auto 8%;
@@ -102,21 +102,105 @@ header section .header-text p{
     text-align: center;
     margin-bottom: 50px;
     font-weight:bolder;
-    font-size: 40px;
+    font-size: 45px;
+    color: #0D1B2A;
 }
 
 .spekers-grid{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     gap: 30px;
+    margin-bottom: 110px;
 
     
 }
 .box{
-    background-color: #E5E7EB;
+    border: 1px solid #E5E7EB;
     border-radius: 18px;
-} */
+    overflow: hidden;
+}
 
+.box img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    display: block;
+} 
+.common-blue{
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #2563EB;
+}
+.box h3{
+    margin-left: 30px;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.name-box{
+    margin-left: 30px;
+    margin-bottom: 20px;
+    color: #575757;
+}
+
+/* secure-section */
+
+.secure-section{
+    margin: auto 8%;
+}
+.secure-text{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.secure-text p{
+    color: #575757;
+}
+.secure-text h1{
+    font-size: 45px;
+    font-weight: bolder;
+    color: #0D1B2A;
+}
+
+.secure-grid{
+    margin-bottom: 70px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: space-between;
+    gap: 30px;
+
+}
+
+.secure-box{
+        border: 1px solid #E5E7EB;
+        border-radius: 8px;
+        padding:20px 40px 40px 40px;
+}
+
+.secure-box ul li,h1,p{
+    margin-top: 15px;
+}
+.secure-box ul li{
+    color: #333333;
+}
+.secure-box ul li::marker{
+    color: #1D4ED8;
+}
+
+.secure-btn{
+    margin-top: 25px;
+    width: 100%;
+    padding: 12px 0px;
+    border:1px solid #2563EB;
+    border-radius: 8px;
+    background-color: white;
+    color: #2563EB;
+    font-weight: 700px;
+    font-size: 17px;
+}
+.secure-color{
+    color: #888888;
+}
 
 
 
