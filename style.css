@@ -11,6 +11,7 @@
     border-radius: 8px;
     background-color: #1D4ED8;
     color: white;
+    cursor: pointer;
 }
 /* nav-section */
 nav section{
@@ -76,6 +77,7 @@ header section{
     background-color: #1D4ED8;
     color: white;
     font-size: 17px;
+    cursor: pointer;
 }
 .btn-header{
     position: absolute;
@@ -195,11 +197,62 @@ header section .header-text p{
     border-radius: 8px;
     background-color: white;
     color: #2563EB;
-    font-weight: 700px;
+    font-weight: 500;
     font-size: 17px;
+    cursor: pointer;
 }
 .secure-color{
     color: #888888;
+}
+
+.secure-btn-left{
+    margin-top: 25px;
+    width: 100%;
+    padding: 12px 0px;
+    border:1px solid #0D1B2A;
+    border-radius: 8px;
+    background-color: white;
+    color: #0D1B2A;
+    font-weight: 500;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.secure-box-mid{
+        border:none;
+        border-radius: 8px;
+        padding:20px 40px 40px 40px;
+        background-color: #0D1B2A;
+}
+
+.secure-box-mid ul li,h1,p{
+    margin-top: 15px;
+}
+.secure-box-mid ul li{
+    color: #FFFFFF;
+    opacity: 0.8;
+}
+.secure-box-mid ul li::marker{
+    color: #1D4ED8;
+}
+
+.box-color-mid{
+    color: #93C5FD;
+}
+.secure-box-mid h1{
+    color: white;
+}
+.secure-btn-mid{
+    margin-top: 25px;
+    width: 100%;
+    padding: 12px 0px;
+    border:none;
+    border-radius: 8px;
+    background-color: #2563EB;
+    color: white;
+    font-weight: 500;
+    font-size: 17px;
+    cursor: pointer;
 }
 
 
