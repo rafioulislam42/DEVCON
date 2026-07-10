@@ -255,6 +255,102 @@ header section .header-text p{
     cursor: pointer;
 }
 
+/* ai-genarated */
 
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
 
+.schedule{
+    padding:90px 8%;
+    background:#f4f7ff;
+}
 
+.heading{
+    text-align:center;
+    margin-bottom:50px;
+}
+
+.heading h2{
+    font-size:45px;
+    color:#222;
+}
+
+.heading p{
+    color:#666;
+    margin-top:10px;
+}
+
+.schedule-box{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    flex-wrap:wrap;
+}
+
+.card{
+    width:330px;
+    color:#fff;
+    padding:30px;
+    border-radius:20px;
+    transition:.4s;
+    box-shadow:0 12px 25px rgba(0,0,0,.15);
+}
+
+.card:hover{
+    transform:translateY(-12px) scale(1.03);
+}
+
+.day1{
+    background:linear-gradient(135deg,#ff6b6b,#ff9f43);
+}
+
+.day2{
+    background:linear-gradient(135deg,#4facfe,#00f2fe);
+}
+
+.day3{
+    background:linear-gradient(135deg,#6a11cb,#2575fc);
+}
+
+.card h3{
+    font-size:30px;
+    margin-bottom:8px;
+}
+
+.date{
+    font-weight:bold;
+    margin-bottom:20px;
+}
+
+.card ul{
+    list-style:none;
+}
+
+.card ul li{
+    margin:14px 0;
+    font-size:17px;
+}
+
+/* footer-section */
+footer{
+    background-color: #0D1B2A;
+    padding: 15px 0px;
+}
+.footer-section{
+    margin: 10px 8%;
+    display: flex;
+    justify-content: space-between;
+    color: #FFFFFF;
+    opacity: 0.6;
+    align-items: center;
+
+}
+footer div{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
